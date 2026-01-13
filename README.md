@@ -1,7 +1,7 @@
 # EH-DSB
 ## Event Horizon Dual-Stage Bootloader
 
-## A tutorial project for creating your own system.
+## Experimental project!
 # This project is in beta!
 
 ### Written from scratch in Assembly/C++.
