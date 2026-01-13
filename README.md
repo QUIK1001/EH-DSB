@@ -1,7 +1,16 @@
-# EH-DSB
+<h1 align="center">EHDSB</h1>
+<h2 align="center">>Experimental project!</h2>
+<h3 align="center">by quik/QUIK1001</h3>
+  
+<p align="center">
+  <br>
+  <img src="https://img.shields.io/badge/EH-DSB*beta_1-green" alt="Version:">
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License:">
+  <img src="https://img.shields.io/badge/Linux-black" alt="Platform">
+</p>
+
 ## Event Horizon Dual-Stage Bootloader
 
-## Experimental project!
 # This project is in beta!
 
 ### Written from scratch in Assembly/C++.
