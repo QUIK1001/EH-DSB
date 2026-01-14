@@ -24,3 +24,37 @@ Or follow the instructions:
 ```bash
 make help
 ```
+# 
+## Main components:
+Two-stage bootloader (boot.asm, boot1.asm) - loads the kernel into memory and switches to protected mode
+
+C++ microkernel (kernel3.cpp) - main functionality
+
+## Functionality:
+
+- VGA-terminal (80×25)
+- keyboard support
+- Real-time clock
+
+### File system in RAM:
+- Simple in-memory file system
+- Support for up to 16 files (up to 2 KB each)
+- Standard files: README.TXT, HELP.TXT, SYSTEM.CFG
+
+### Applications:
+
+1. Text Editor
+ - Saving/loading files
+ - F4 support for saving
+
+2. Calculator
+ - Basic arithmetic
+
+3. Brainfuck "IDE"
+ - a "simple" development environment for Brainfuck
+   
+4. simple File manager
+ - view files
+
+<img width="720" height="404" alt="изображение" src="https://github.com/user-attachments/assets/54b083a0-8e9f-4827-acf5-0a3b346f886b" />
+<img width="718" height="397" alt="изображение" src="https://github.com/user-attachments/assets/db7a0fcf-fc52-4dc6-96d6-a67db3379ed1" />
