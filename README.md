@@ -58,3 +58,5 @@ C++ microkernel (kernel3.cpp) - main functionality
 
 <img width="720" height="404" alt="изображение" src="https://github.com/user-attachments/assets/54b083a0-8e9f-4827-acf5-0a3b346f886b" />
 <img width="718" height="397" alt="изображение" src="https://github.com/user-attachments/assets/db7a0fcf-fc52-4dc6-96d6-a67db3379ed1" />
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/QUIK1001/EH-DSB)
