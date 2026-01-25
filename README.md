@@ -5,7 +5,7 @@
 <p align="center">
   <br>
   <img src="https://img.shields.io/badge/EH-DSB*beta_1-green" alt="Version:">
-  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License:">
+  <img src="https://img.shields.io/badge/License-Unlicense-yellow" alt="License:">
   <img src="https://img.shields.io/badge/Linux-black" alt="Platform">
 </p>
 
