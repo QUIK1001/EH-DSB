@@ -286,7 +286,7 @@ public:
         if (sc == 0x0E) return '\b';
         if (sc == 0x1C) return '\n';
         if (sc == 0x0F) return '\t';
-        if (sc == 0x44) return (char)0xFA; // F10 key
+        if (sc == 0x44) return (char)0xFA;
         
         return 0;
     }
@@ -704,7 +704,7 @@ public:
             
             if (Keyboard::is_key_pressed()) {
                 char c = Keyboard::get_char();
-                if (c == (char)0xFA) { // F10 key
+                if (c == (char)0xFA) {
                     running = false;
                     term.write_at(2, 17, "Execution stopped by user (F10)", 0x0C);
                 }
@@ -1313,7 +1313,7 @@ private:
                     strcpy(bf_code, "++++++++++[>++++++++++<-]>+.");
                     cursor = strlen(bf_code);
                     break;
-                } else if (c == (char)0xFA) { // F10 key
+                } else if (c == (char)0xFA) {
                     break;
                 }
             }
@@ -1393,7 +1393,7 @@ public:
     void handle_input(char c) {
         if (!active) return;
         
-        if (c == (char)0xFA) { // F10 key instead of 0x1B (ESC)
+        if (c == (char)0xFA) {
             close();
             return;
         }
@@ -1691,7 +1691,7 @@ public:
         while (true) {
             if (Keyboard::is_key_pressed()) {
                 char c = Keyboard::get_char();
-                if (c == (char)0xFA) { // F10 key
+                if (c == (char)0xFA) {
                     break;
                 }
             }
