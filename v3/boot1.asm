@@ -26,7 +26,7 @@ start:
     mov si, msg_success
     call print_string
 
-    call delay_1sec
+    call delay_2sec
 
     mov si, ascii_art
     call print_string
@@ -60,19 +60,6 @@ print_string:
     int 0x10
     jmp .loop
 .done:
-    ret
-
-delay_1sec:
-    pusha
-    mov ah, 0x00
-    int 0x1A
-    mov bx, dx
-    add bx, 36
-.wait:
-    int 0x1A
-    cmp dx, bx
-    jl .wait
-    popa
     ret
 
 delay_2sec:
