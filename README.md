@@ -1,4 +1,4 @@
-<img width="922" height="499" alt="EH-DSB" src="https://github.com/user-attachments/assets/d2895461-049e-4016-8762-4eefc19be0b9" />
+https://github.com/user-attachments/assets/7f78312a-a579-405a-a633-91fac058bcdb
 
 # EH-DSB
 Experimental project
@@ -25,3 +25,4 @@ make help
 ```
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/QUIK1001/EH-DSB)
 
+<img width="922" height="499" alt="EH-DSB" src="https://github.com/user-attachments/assets/d2895461-049e-4016-8762-4eefc19be0b9" />
