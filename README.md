@@ -6,6 +6,8 @@ Experimental project
 <p align="center">
   <br>
   <img src="https://img.shields.io/badge/EHDSB-black" alt="Version:">
+  <img src="https://img.shields.io/badge/v0.01-red" alt="Last Version">
+  <img src="https://img.shields.io/badge/|-yellow" alt="|">
   <img src="https://img.shields.io/badge/Unlicense-gray" alt="License:">
   <img src="https://img.shields.io/badge/Linux-white" alt="Platform">
 </p>
@@ -22,3 +24,4 @@ Or follow the instructions:
 make help
 ```
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/QUIK1001/EH-DSB)
+
